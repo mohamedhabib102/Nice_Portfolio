@@ -133,3 +133,19 @@ header {
     backdrop-filter: blur(4px);
   }
 }
+
+
+h3 {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #fff; /* مؤشر الكتابة */
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
