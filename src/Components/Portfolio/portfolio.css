@@ -1,0 +1,84 @@
+.portfolio {
+  padding-top: var(--paddingTop);
+  padding-bottom: var(--paddingBottom);
+}
+
+.active {
+  color: var(--colorMain);
+  background-color: var(--bgPage);
+}
+.bg-eee {
+  background-color: #eee;
+}
+
+.link-tabs {
+  @apply rounded-[5px] pt-[5px] pb-[5px] pl-[10px] pr-[10px] cursor-pointer;
+}
+.tabs-link ul li:hover {
+  color: var(--colorMain);
+  background-color: var(--bgPage);
+  transition: 0.3s;
+}
+.profile {
+  @apply relative overflow-hidden;
+}
+.profile:hover {
+  .desc {
+    bottom: 0;
+  }
+  img {
+    transform: rotate(4deg) scale(1.1);
+    filter: grayscale(0%) blur(0px);
+  }
+}
+
+.icons {
+  @apply flex gap-[0.5rem] text-[25px];
+}
+
+.flex-coustom {
+  @media (max-width: 425px) {
+    & {
+      flex-direction: column;
+    }
+  }
+}
+.bg-hover-profile {
+  background-color: #f5f5f5;
+}
+.profile-img {
+  margin: auto;
+  transition: 0.3s;
+  filter: grayscale(60%) blur(1px);
+}
+.translate {
+  transform: translate(-50%, -50%);
+}
+.transition-coustom {
+  transition: 0.4s;
+}
+
+.desc {
+  @apply absolute bottom-[-92px] left-0 bg-hover-profile p-[10px] w-full
+  transition-coustom;
+}
+
+.desc {
+  span {
+    .css-icon {
+      color: #264de4;
+    }
+    .html-icon {
+      color: #ea5827;
+    }
+    .js-icon {
+      color: #ebcc37;
+    }
+    .boot-icon {
+      color: #712cf9;
+    }
+    .react-icon {
+      color: #61dafb;
+    }
+  }
+}

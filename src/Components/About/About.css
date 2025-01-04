@@ -1,0 +1,41 @@
+.about {
+  padding-top: var(--paddingTop);
+  padding-bottom: var(--paddingBottom);
+}
+
+.border-color {
+  color: var(--borderColor);
+}
+.bg-color {
+  color: var(--bgColor);
+}
+
+.bg-color-back {
+  background-color: var(--bgColor);
+}
+.border-color-back {
+  background-color: var(--borderColor);
+}
+.bg-page {
+  background-color: var(--bgPage);
+}
+
+.content-profile {
+  @apply flex items-start max-[991px]:flex-col gap-[1.5rem];
+}
+.border-page-3 {
+  border: 3px solid var(--bgColor);
+}
+.back-transparent {
+  &:hover {
+    background-color: transparent;
+    color: var(--bgColor);
+  }
+}
+
+.back-transparent-reverse {
+  &:hover {
+    background-color: var(--bgColor);
+    color: white;
+  }
+}

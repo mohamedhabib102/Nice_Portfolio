@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", cursive !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --colorMain: #ff0077;
+  --borderColor: #646464;
+  --bgColor: #313131;
+  --replaceColor: #cc7fa3;
+  --bgPage: #151515;
+  --paddingTop: 60px;
+  --paddingBottom: 60px;
+}
+
+.coustom-shadow {
+  box-shadow: 0 0 10px #0000001c;
+}
+
+.bg-main-color {
+  background-color: var(--colorMain);
+}
+.bg-eee {
+  background-color: #eee;
+}
+.color-main {
+  color: var(--colorMain);
+}
+.color-bg {
+  color: var(--bgColor);
+}
+.color-border-color {
+  color: var(--borderColor);
+}
+.bg-color-page {
+  background-color: var(--bgPage);
+}
+.coustom-color{
+  color: #e384b1;
+}
+.coustom-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .coustom-container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .coustom-container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .coustom-container {
+    width: 1170px;
+  }
+}

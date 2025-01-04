@@ -1,0 +1,126 @@
+.time-line {
+  padding-top: var(--paddingTop);
+  padding-bottom: var(--paddingBottom);
+  background-color: #eee;
+}
+
+.bg-main-color {
+  background-color: var(--colorMain);
+}
+.content-before {
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: var(--colorMain);
+    margin-left: -1px;
+    z-index: 1;
+  }
+  @media (max-width: 991px) {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.year {
+  @apply w-[60px] z-[100] bg-main-color text-white text-center
+    relative pt-[2px] pr-[2px] pb-[4px] pl-[4px] mt-0 mb-[20px] mr-auto ml-auto rounded-[3px];
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.left {
+  width: calc(50% - 25px);
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 333;
+  float: right;
+  .content-time::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    left: -21px;
+    top: 14px;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    z-index: 8999999;
+    border-radius: 50%;
+    border: 3px solid var(--colorMain);
+    left: -33px;
+    top: 15px;
+  }
+}
+
+.media-of-content {
+  @media (max-width: 991px) {
+    width: 100% !important;
+    &::before {
+      display: none;
+    }
+    .content-time::before {
+      display: none;
+    }
+  }
+}
+
+.right {
+  width: calc(50% - 25px);
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 333;
+  float: left;
+  .content-time::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    right: -21px;
+    top: 14px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    z-index: 8999999;
+    border-radius: 50%;
+    border: 3px solid var(--colorMain);
+    right: -33px;
+    top: 15px;
+  }
+  @media (max-width: 991px) {
+    &::before {
+      display: none;
+    }
+    .content-time::before {
+      display: none;
+    }
+  }
+}
+
+.clear {
+  @apply clear-both;
+}
+
+.content-time {
+  @apply p-[20px] relative;
+}

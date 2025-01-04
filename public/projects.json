@@ -1,0 +1,189 @@
+{
+    "projects": [
+      {
+        "name": "SEO App",
+        "link": "https://example.com/portfolio",
+        "image": "../src/assets/images/item-1.PNG",
+        "category": "HTML & CSS",
+        "technologies": [
+          {
+            "name": "HTML",
+            "icon": "fa-brands fa-html5 html-icon"
+          },
+          {
+            "name": "CSS",
+            "icon": "fa-brands fa-css3 css-icon"
+          }
+        ]
+      },
+      {
+        "name": "Chain App",
+        "link": "https://example.com/portfolio",
+        "image": "../src/assets/images/item-2.PNG",
+        "category": "HTML & CSS",
+        "technologies": [
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5 html-icon"
+              },
+              {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3 css-icon"
+              }
+        ]
+      },
+      {
+        "name": "Bondi App",
+        "link": "https://example.com/portfolio",
+        "image": "../src/assets/images/item-3.PNG",
+        "category": "HTML & CSS & Bootstrap",
+        "technologies": [
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5 html-icon"
+              },
+              {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3 css-icon"
+              },
+          {
+            "name": "Bootstrap",
+            "icon": "fa-brands fa-bootstrap boot-icon"
+          }
+        ]
+      },
+      {
+        "name": "Special Design App",
+        "link": "https://example.com/todo",
+        "image": "../src/assets/images/item-4.PNG",
+        "category": "Pure JavaScript",
+        "technologies": [
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5 html-icon"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3 css-icon"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js js-icon"
+            }
+        ]
+      },
+      {
+        "name": "Game X O",
+        "link": "https://example.com/todo",
+        "image": "../src/assets/images/item-5.PNG",
+        "category": "Pure JavaScript",
+        "technologies": [
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5 html-icon"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3 css-icon"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js js-icon"
+            }
+        ]
+      },
+      {
+        "name": "Dashboard App",
+        "link": "https://example.com/todo",
+        "image": "../src/assets/images/item-6.PNG",
+        "category": "Pure JavaScript",
+        "technologies": [
+            {
+                "name": "HTML",
+                "icon": "fa-brands fa-html5 html-icon"
+            },
+            {
+                "name": "CSS",
+                "icon": "fa-brands fa-css3 css-icon"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js js-icon"
+            }
+        ]
+      },
+      {
+        "name": "Online Store App",
+        "link": "https://example.com/cart",
+        "image": "../src/assets/images/item-7.PNG",
+        "category": "React js",
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js js-icon"
+            },
+          {
+            "name": "React",
+            "icon": "fa-brands fa-react react-icon"
+          },
+          {
+            "name": "CSS",
+            "icon": "fa-brands fa-css3 css-icon"
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "fa-brands fa-bootstrap boot-icon"
+        }
+        ]
+      },
+      {
+        "name": "Portfolio App",
+        "link": "https://example.com/cart",
+        "image": "../src/assets/images/item-8.PNG",
+        "category": "React js",
+        "technologies": [
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js js-icon"
+            },
+          {
+            "name": "React",
+            "icon": "fa-brands fa-react react-icon"
+          },
+          {
+            "name": "CSS",
+            "icon": "fa-brands fa-css3 css-icon"
+        },
+        {
+            "name": "Tailwind",
+            "icon": "fa-brands fa-bootstrap boot-icon"
+        }
+        ]
+      },
+      {
+        "name": "Coming soon",
+        "link": "https://example.com/cart",
+        "image": "../src/assets/images/item-9.png",
+        "category": "React js",
+        "technologies": [
+          {
+            "name": "JavaScript",
+            "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+          },
+          {
+            "name": "React",
+            "icon": "https://cdn-icons-png.flaticon.com/512/919/919851.png"
+          },
+          {
+            "name": "CSS",
+            "icon": "https://cdn-icons-png.flaticon.com/512/732/732190.png"
+         },
+          {
+            "name": "Bootstrap",
+            "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,74 @@
+.contact {
+  padding-top: var(--paddingTop);
+  padding-bottom: 20px;
+  background-color: var(--bgPage);
+  .content button:hover {
+    box-shadow: 0 0 10px #ff00778a;
+    color: #ccc;
+    transition: 0.3s;
+  }
+}
+
+.bg-main {
+  background-color: var(--colorMain);
+}
+.box {
+  @apply mb-[15px] relative w-full;
+}
+
+.button {
+  @apply w-[80%] mt-[30px] mb-[30px] ml-auto mr-auto p-[15px] text-white uppercase
+    font-bold block max-[991px]:w-full bg-main;
+}
+
+.coust-input {
+  background-color: var(--bgPage);
+  color: var(--borderColor);
+  border: 2px solid var(--bgColor);
+}
+
+.input {
+  @apply p-[15px] rounded-[8px] text-[17px] block coust-input outline-none resize-none w-full;
+}
+.box label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.box .label-mesg {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.box input:focus,
+.box .mesg-input:focus {
+  transition: 1s;
+  border-color: var(--colorMain);
+}
+
+.box label {
+  padding: 2px 8px;
+}
+.box input:focus ~ label,
+.box input:valid ~ label {
+  top: -2px;
+  background-color: var(--bgPage);
+  font-size: 14px;
+  color: var(--colorMain);
+}
+.box .mesg-input:focus ~ label,
+.box .mesg-input:valid ~ label {
+  top: -2px;
+  background-color: var(--bgPage);
+  font-size: 14px;
+  color: var(--colorMain);
+}

@@ -1,0 +1,52 @@
+.services {
+  padding-top: var(--paddingTop);
+  padding-bottom: var(--paddingBottom);
+  background-color: #eee;
+}
+
+.show-accrdion {
+  height: 160px !important;
+  @media (min-width: 1200px) {
+    & {
+      height: 160px !important;
+    }
+  }
+  @media (max-width: 767px) {
+    & {
+      height: 180px !important;
+    }
+  }
+  @media (max-width: 547px) {
+    & {
+      height: 195px !important;
+    }
+  }
+  @media (max-width: 473px) {
+    & {
+      height: 200px !important;
+    }
+  }
+  @media (max-width: 426px) {
+    & {
+      height: 220px !important;
+    }
+  }
+  @media (max-width: 374px) {
+    & {
+      height: 230px !important;
+    }
+  }
+  transition: 0.3s;
+  p {
+    opacity: 1;
+    visibility: visible;
+  }
+  .icon-x {
+    transform: rotate(45deg);
+    transition: 0.3s;
+  }
+}
+
+.serve {
+  @apply bg-white overflow-hidden h-[82px] rounded-[10px] p-[15px] mb-[15px];
+}
